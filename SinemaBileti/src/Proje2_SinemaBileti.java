@@ -87,6 +87,8 @@ public class Proje2_SinemaBileti {
         // Toplam fiyat
         System.out.println("------------------------------------");
         System.out.printf(" TOPLAM FIYAT         : %6.1f TL", finalPrice);
+
+        scanner.close();
     }
 
     // Indirim adini getir

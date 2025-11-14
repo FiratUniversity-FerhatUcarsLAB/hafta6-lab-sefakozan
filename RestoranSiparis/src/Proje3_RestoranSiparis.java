@@ -142,14 +142,14 @@ public class Proje3_RestoranSiparis {
             System.out.printf(" Ogrenci indirimi     : %%10 -> %7.2f TL\n", -studentDiscount);
         }
 
-        // Indirim varsa indirimli tutar, indirim yoksa indirimsiz tutar yazilir
-        if (totalDiscount > 0) {
-            System.out.println("                        -----------");
-            System.out.printf(" Toplam               : %7.2f TL\n", afterDiscount);
-        }
+        // Toplam tutar (indirimli veya indirimsiz)
+        System.out.println("                        -----------");
+        System.out.printf(" Toplam               : %7.2f TL\n", afterDiscount);
 
         // Bahsis onerisi (indirimli tutar uzerinden %10)
         System.out.printf(" Bahsis onerisi       : %7.2f TL (%%10)\n", serviceTip);
+
+        scanner.close();
     }
 
     public int getMainDishPrice(int choice){
