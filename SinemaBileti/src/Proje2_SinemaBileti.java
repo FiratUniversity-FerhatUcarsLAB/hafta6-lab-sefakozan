@@ -2,7 +2,7 @@
  * Ad Soyad: [Muhammet Sefa KOZAN]
  * Numara: [250541057]
  * Proje: [Sinema Bilet Sistemi]
- * Tarih: [14.11.2025]
+ * Tarih: [14.11.2025 03:56:00]
  *
  * Bu program sinema bilet fiyatlarini hesaplar.
  * Gun, saat, yas, meslek ve film turune gore temel fiyat, indirim ve ekstra ucretleri belirler.

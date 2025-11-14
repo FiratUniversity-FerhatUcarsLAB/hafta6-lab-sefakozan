@@ -2,7 +2,7 @@
  * Ad Soyad: [Muhammet Sefa KOZAN]
  * Numara: [250541057]
  * Proje: [Restoran Siparis Sistemi]
- * Tarih: [14.11.2025]
+ * Tarih: [14.11.2025 03:56:00]
  *
  * Bu program restoran siparisi icin fiyat hesaplar.
  * Combo indirimi, ogrenci indirimi, happy hour ve servis ucreti hesaplar.
