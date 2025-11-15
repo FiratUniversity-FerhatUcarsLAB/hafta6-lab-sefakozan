@@ -116,21 +116,11 @@ public class Proje1_NotSistemi {
 
     // Agirlikli ortalama notuna gore harf notu belirler
     public char getLetterGrade(double average){
-        if (average >= 90) {
-            return 'A';
-        }
-        else if (average <= 89 && average >= 80) {
-            return 'B';
-        }
-        else if (average <=  79 && average >= 70) {
-            return 'C';
-        }
-        else if (average <= 69 && average >= 60) {
-            return 'D';
-        }
-        else {
-            return 'F';
-        }
+        if (average >= 90) return 'A';
+        if (average >= 80) return 'B';
+        if (average >= 70) return 'C';
+        if (average >= 60) return 'D';
+        return 'F';
     }
 
     // Agirlikli ortalama notuna gore ogrencinin gecip gecmedigini belirler

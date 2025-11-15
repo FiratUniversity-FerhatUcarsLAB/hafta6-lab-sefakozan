@@ -132,16 +132,16 @@ public class Proje2_SinemaBileti {
     // Indirim oranini hesapla
     public double calculateDiscount(int age, int occupation, int day){
         switch (occupation){
-            case 1: // Ogrenci
-                return isWeekend(day) ? 0.15 : 0.20;
-            case 2: // Ogretmen
-                return day == 3 ? 0.35 : 0;
-            case 3: // Diger
+            // Ogrenci
+            case 1: return isWeekend(day) ? 0.15 : 0.20;
+            // Ogretmen
+            case 2: return day == 3 ? 0.35 : 0;
+            // Diger
+            case 3:
                 if (age > 65) return 0.30;
                 if (age < 12) return 0.25;
                 return 0;
-            default:
-                return 0;
+            default: return 0;
         }
     }
 
